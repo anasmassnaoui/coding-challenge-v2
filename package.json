@@ -1,0 +1,24 @@
+{
+  "name": "coding-challenge-v2",
+  "version": "1.0.0",
+  "description": "a simple reviews app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anasmassnaoui/coding-challenge-v2.git"
+  },
+  "keywords": [
+    "reviews",
+    "nodejs",
+    "vanillaJS"
+  ],
+  "author": "Anas MASSNAOUI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anasmassnaoui/coding-challenge-v2/issues"
+  },
+  "homepage": "https://github.com/anasmassnaoui/coding-challenge-v2#readme"
+}
