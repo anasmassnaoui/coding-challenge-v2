@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Coding Challenge V2 </title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css" />
+</head>
+
+<body>
+  <h1>The Minimalist Entrepreneur</h1>
+  <div class="review">
+    <h2 class="review-title" id="avg-rating-number"> 3.8 </h2>
+    <rate-me value="3" readonly id="avg-rating"></rate-me>
+    <div class="spacer"></div>
+    <button class="btn" id="show-review-dialog"> Add review </button>
+  </div>
+  <hr />
+  <div id="reviews">
+    <h2> Reviews </h2>
+  </div>
+  <div class="dialog hide" id="review-dialog">
+    <div class="dialog-content">
+      <h1> What's your rating? </h1>
+      <p> Rating </p>
+      <rate-me value="4" id="rating"></rate-me>
+      <p> Review </p>
+      <input placeholder="Start typing...." class="text-input" id="description" />
+      <br />
+      <button class="btn" id="review-submit"> Submit review </button>
+    </div>
+  </div>
+  <script type="text/javascript" src="/javascripts/rateme.js"></script>
+  <script type="text/javascript" src="/javascripts/reviews.js"></script>
+</body>
+
+</html>
