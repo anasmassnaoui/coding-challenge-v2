@@ -18,6 +18,12 @@
     "nodemon": "^2.0.12",
     "sqlite3": "^5.0.2"
   },
+  "jest": {
+    "verbose": true,
+    "testPathIgnorePatterns": [
+      "client"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/anasmassnaoui/coding-challenge-v2.git"
