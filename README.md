@@ -17,7 +17,7 @@ A simple reviews app collector
     npm start
 ```
 
-## Visite
+## Visit
 
-- go to http://127.0.0.1/ to visite MVP
-- go to http://127.0.0.1:3000/ to visite V2
+- go to http://127.0.0.1:8080/ to visit MVP
+- go to http://127.0.0.1:3000/ to visit V2
